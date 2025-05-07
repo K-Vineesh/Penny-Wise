@@ -35,7 +35,7 @@ Clone the repo:
 bash
 Copy
 Edit
-git clone https://github.com/k-vineesh/penny-wise.git
+git clone https://github.com/K-Vineesh/Penny-Wise.git
 cd penny-wise
 Set up environment variables:
 
@@ -80,10 +80,6 @@ Working on Penny Wise sharpened my full-stack skills and gave me a deeper apprec
 
 🚦 Agile Flow — Worked in sprints, practiced version control and CI/CD workflows.
 
-📄 License
-This project is licensed under the MIT License.
 
 📬 Feedback & Contact
-Got feedback or ideas? Drop me a mail at: your.email@example.com
-
-Let's connect on LinkedIn
+Got feedback or ideas? Drop me a mail at: vineeshbijuselvi@gmail.com

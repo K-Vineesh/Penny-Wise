@@ -21,20 +21,20 @@ const NavBar = () => {
           className="text-xl sm:text-2xl md:text-3xl uppercase cursor-pointer"
           onClick={() => navigate("/")}
         >
-          Spend{" "}
+          Penny{" "}
           <span className="text-primary text-base sm:text-xl md:text-2xl">
-            Smart.
+            Wise.
           </span>
         </h1>
       </div>
       <div className="hidden xmd:flex items-center space-x-4">
         <img src={arrow} alt="" className="w-[35px]" />
         <Link
-          to="https://www.linkedin.com/in/saxena-shourya/"
+          to="https://www.linkedin.com/in/vineesh-k-0ba0b1266/"
           target="_blank"
           className="text-xl text-secondary transition-all hover:text-primary relative animateBottom"
         >
-          Contact Me
+          Reach Out
         </Link>
       </div>
       <div className="hidden min-[460px]:flex items-center space-x-2 sm:space-x-4">

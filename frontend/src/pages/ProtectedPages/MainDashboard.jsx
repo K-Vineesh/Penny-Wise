@@ -94,7 +94,7 @@ const DashboardPage = () => {
       <h3 className="font-outfit text-sm md:text-base lg:text-lg text-center sm:text-left text-pretty">
         See what's happenning with your money, Lets Manage your
         incomes/expenses.{" "}
-        <span className="font-bold text-primary">Spend Smartly!</span>
+        <span className="font-bold text-primary">Spend your Pennies Wisely</span>
       </h3>
       <div className="w-full mt-8 flex flex-col sm:flex-row gap-y-4 justify-between items-center">
         <div className="px-6 py-4 border-2 w-full sm:w-[30%] border-secondary rounded-lg inline-flex justify-between items-center">
