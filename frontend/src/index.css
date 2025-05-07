@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Cal-sans;
+  src: url("./assets/fonts/CalSans-SemiBold.ttf");
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Cal-sans, sans-serif;
+  }
+  body {
+    font-family: Nunito, sans-serif;
+  }
+  svg {
+    @apply size-4 sm:size-5;
+  }
+
+  ::selection {
+    @apply bg-primary text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full transition-all;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-600;
+  }
+}
+
+@layer utilities {
+  .animateBottom::before {
+    @apply content-[""] absolute bottom-0 left-0 w-0 h-[2px] bg-primary rounded-full;
+    transition: all 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+  }
+  .animateBottom:hover::before {
+    @apply w-full;
+  }
+  .box-shadow {
+    @apply shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px];
+  }
+  .action-btn {
+    @apply text-secondary underline px-2 py-[0.1rem] font-nunito transition-all hover:text-primary hover:bg-secondary hover:rounded-full hover:no-underline cursor-pointer;
+  }
+  .link {
+    @apply inline-flex items-center gap-x-2 transition-all px-3 py-2 rounded-lg cursor-pointer hover:bg-slate-300;
+  }
+  .activeLink {
+    @apply bg-primary text-white hover:bg-primary-600;
+  }
+  .icon {
+    @apply size-[2.5rem] md:size-[3rem] text-white bg-primary flex justify-center items-center p-2 rounded-full text-3xl;
+  }
+  .icon-second {
+    @apply size-[3rem] text-primary bg-primary-50 flex justify-center items-center p-2 rounded-full text-3xl;
+  }
+  .box-shadow-second {
+    @apply shadow-[rgba(0,_0,_0,_0.25)_0px_20px_40px];
+  }
+}
